@@ -37,12 +37,12 @@ src/
 
 Each section's content lives directly in its component file under `src/components/`:
 
-- `Hero.tsx` — name, title, tagline, contact info
-- `About.tsx` — summary and education
-- `Experience.tsx` — work history
-- `Projects.tsx` — featured projects
-- `Skills.tsx` — technical skills
-- `Contact.tsx` — contact details
+- `Hero.tsx` name, title, tagline, contact info
+- `About.tsx` summary and education
+- `Experience.tsx` work history
+- `Projects.tsx` featured projects
+- `Skills.tsx` technical skills
+- `Contact.tsx` contact details
 
 Colors and design tokens are defined in `src/index.css` and `tailwind.config.ts`.
 
