@@ -1,6 +1,4 @@
-# Jeannine Mukashema — Portfolio
-
-Personal portfolio website for Jeannine Mukashema, Data Scientist. Built with Vite, React, TypeScript, shadcn/ui, and Tailwind CSS.
+# My Portfolio
 
 ## Tech Stack
 
@@ -24,8 +22,6 @@ npm install
 # Start the development server
 npm run dev
 ```
-
-The site will be available at `http://localhost:8080`.
 
 ## Project Structure
 
@@ -66,4 +62,3 @@ This site is deployed on [Netlify](https://www.netlify.com/), connected directly
 2. Netlify automatically detects the push and rebuilds the site.
 3. Build settings: **Build command** `npm run build`, **Publish directory** `dist`.
 
-No manual deployment steps are needed once the Netlify site is connected — every push to `main` triggers a new deploy automatically.
