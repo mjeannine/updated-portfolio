@@ -14,7 +14,6 @@ Requires [Node.js](https://nodejs.org/) (v18+) and npm.
 ```sh
 # Clone the repository
 git clone https://github.com/mjeannine/updated-portfolio.git
-cd updated-portfolio
 
 # Install dependencies
 npm install
@@ -23,17 +22,8 @@ npm install
 npm run dev
 ```
 
-## Project Structure
 
-```
-src/
-  components/     # Page sections (Hero, About, Experience, Projects, Skills, Contact, Footer)
-  components/ui/  # shadcn/ui components
-  assets/         # Images
-  pages/          # Route pages
-```
-
-## Editing Content
+## Content
 
 Each section's content lives directly in its component file under `src/components/`:
 
@@ -46,13 +36,11 @@ Each section's content lives directly in its component file under `src/component
 
 Colors and design tokens are defined in `src/index.css` and `tailwind.config.ts`.
 
-## Building for Production
+## Production
 
 ```sh
 npm run build
 ```
-
-This outputs a static production build to the `dist/` folder.
 
 ## Deployment (Netlify)
 
